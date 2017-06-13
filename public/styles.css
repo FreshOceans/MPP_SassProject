@@ -1,0 +1,39 @@
+body {
+  background-color: white; }
+
+#mainMenu {
+  height: 50px;
+  width: 62%;
+  min-width: 505px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid purple; }
+  #mainMenu .menuItem {
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #139EFA; }
+  #mainMenu .menuItem:hover {
+    color: #139EFA;
+    background-color: #02C43C; }
+
+/* ======= ======= =======  miniMenu  ======= ======= ======= */
+.button {
+  width: 100px;
+  height: 28px;
+  margin: 5px;
+  padding: 3px;
+  text-align: center;
+  background-color: #A906E5;
+  color: white; }
+
+.button:hover {
+  color: #139EFA;
+  background-color: #02C43C; }
+
+/*# sourceMappingURL=styles.css.map */
