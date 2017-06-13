@@ -6,6 +6,9 @@
     margin: 20px;
     padding: 10px;
     border: 2px solid purple;
+    @include border-radius(50px);
+    background-color: black;
+    @include shader(0.5);
     .menuItem {
         float: left;
         width: $menuItem_W;

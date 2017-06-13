@@ -1,7 +1,8 @@
 /* ======= ======= =======  miniMenu  ======= ======= ======= */
+
 .button {
     width: $button_W;
-    height: $button_H + 8;
+    height: ($button_H * 3) + 60;
     margin: $button_mar;
     padding: $button_pad - 2;
     text-align: center;

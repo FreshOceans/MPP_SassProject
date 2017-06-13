@@ -24,10 +24,16 @@ $button_bg: #A906E5;
 $button_hov: #02C43C;
 $button_txt: white;
 
-
-// ====== Test ======
-body {
-    background-color: white;
+/* ======= ======= =======  mixins (defined)  ======= ======= ======= */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin shader($opacity) {
+    opacity: $opacity;
 }
 
 // ======= imports =======

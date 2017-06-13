@@ -1,13 +1,18 @@
-body {
-  background-color: white; }
-
+/* ======= ======= =======  mixins (defined)  ======= ======= ======= */
 #mainMenu {
   height: 50px;
   width: 62%;
   min-width: 505px;
   margin: 20px;
   padding: 10px;
-  border: 2px solid purple; }
+  border: 2px solid purple;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  background-color: black;
+  opacity: 0.5; }
   #mainMenu .menuItem {
     float: left;
     width: 100px;
@@ -25,7 +30,7 @@ body {
 /* ======= ======= =======  miniMenu  ======= ======= ======= */
 .button {
   width: 100px;
-  height: 28px;
+  height: 120px;
   margin: 5px;
   padding: 3px;
   text-align: center;
